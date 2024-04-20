@@ -3,5 +3,5 @@ Intel has published a proposal for a new legacy-reduced architecture called
 architecture is intended to simplify systems that for long have had no need for
 real-mode execution or any other such thing.
 
-This project is my attempt to run through what a simplified booting/kernel
+This project is my attempt to run through what a minimial boot and kernel
 process looks like in the new architecture.
