@@ -17,7 +17,7 @@ All Long Mode All The Time
 
 Reset State
 -----------
-> **3.11 64-Bit Reset**
+> **3.11 64-Bit Reset**  
 > The CPU starts executing in 64-bit paged mode with a 4-level page table after
 > reset. The fixed reset RIP is the standard reset vector 0xFFFFFFF0 but is
 > entered as 64-bit. The fixed reset CR3 value is 0xFFFFE000.
