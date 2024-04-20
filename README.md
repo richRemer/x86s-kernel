@@ -15,5 +15,9 @@ All Long Mode All The Time
 > 16-bit and 32-bit protected mode are not supported anymore and cannot be
 > entered. The CPU always operates in long mode.
 
-How are paging tables setup initially?  (flat map I hope).  How does this change
-the entry point?
+Reset State
+-----------
+> **3.11 64-Bit Reset**
+> The CPU starts executing in 64-bit paged mode with a 4-level page table after
+> reset. The fixed reset RIP is the standard reset vector 0xFFFFFFF0 but is
+> entered as 64-bit. The fixed reset CR3 value is 0xFFFFE000.
